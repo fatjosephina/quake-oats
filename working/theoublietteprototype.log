@@ -14,49 +14,49 @@ Output file: theoublietteprototype.bsp
 Processing hull 0...
 ---- Brush_LoadEntity ----
            61 brushes
-           48 planes
+           50 planes
 ---- CSGFaces ----
           366 brushfaces
-          292 csgfaces
-          244 mergedfaces
+          290 csgfaces
+          242 mergedfaces
 ---- SolidBSP ----
-          290 split nodes
-           97 solid leafs
-          194 empty leafs
+          293 split nodes
+           98 solid leafs
+          196 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-          460 leaffaces
-          439 nodefaces
+          461 leaffaces
+          440 nodefaces
 ---- Portalize ----
-          194 vis leafs
-          194 vis clusters
-          474 vis portals
+          196 vis leafs
+          196 vis clusters
+          482 vis portals
 ---- FillOutside ----
           166 outleafs
 ---- MergeAll ----
-           82 mergefaces
+           79 mergefaces
 ---- SolidBSP ----
-           53 split nodes
+           55 split nodes
            37 solid leafs
-           17 empty leafs
+           19 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-          112 leaffaces
-           90 nodefaces
+          115 leaffaces
+           87 nodefaces
 ---- Portalize ----
-           17 vis leafs
-           17 vis clusters
-           28 vis portals
+           19 vis leafs
+           19 vis clusters
+           36 vis portals
 ---- Tjunc ----
-          118 world edges
-          352 edge points
-           82 edges added by tjunctions
+          119 world edges
+          340 edge points
+           72 edges added by tjunctions
             0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
@@ -70,20 +70,20 @@ Processing hull 2...
 *** WARNING 16: Texture 128_grey_3 not found
 ---- WriteBSPFile ----
 Wrote theoublietteprototype.bsp
-          106 planes             2120
-          133 vertexes           1596
-           53 nodes              1272
+          107 planes             2140
+          127 vertexes           1524
+           55 nodes              1320
             8 texinfo             320
-           90 faces              1800
-          867 clipnodes          6936
-           18 leafs               504
-          112 marksurfaces        224
-          442 surfedges          1768
-          222 edges               888
+           87 faces              1740
+          862 clipnodes          6896
+           20 leafs               560
+          115 marksurfaces        230
+          420 surfedges          1680
+          211 edges               844
             4 textures             20
               lightdata             0
               visdata               0
               entdata             116
 
-0.145 seconds elapsed
-Peak memory usage: 2710620 (2.6M)
+0.149 seconds elapsed
+Peak memory usage: 2686794 (2.6M)
