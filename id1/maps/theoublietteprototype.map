@@ -3,7 +3,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"wad" "wads/prototype_1_2.wad"
+"wad" "C:/QuakeDev/wads/prototype_1_2.wad"
 // brush 0
 {
 ( -16 96 -16 ) ( -16 96 16 ) ( -16 -96 16 ) 128_grey_2 -32 0 0 1 1

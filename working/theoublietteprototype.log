@@ -3,20 +3,20 @@ Input file: theoublietteprototype.map
 Output file: theoublietteprototype.bsp
 
 ---- LoadMapFile ----
-         1134 faces
-          189 brushes
-           19 entities
+         1122 faces
+          187 brushes
+           11 entities
             6 unique texnames
            21 texinfo
 
-*** WARNING 01: No valid WAD filenames in worldmodel
+Opened WAD: C:/QuakeDev/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          188 brushes
+          186 brushes
           118 planes
 ---- CSGFaces ----
-         1128 brushfaces
-          998 csgfaces
+         1116 brushfaces
+          993 csgfaces
           853 mergedfaces
 ---- SolidBSP ----
          1318 split nodes
@@ -27,8 +27,8 @@ Processing hull 0...
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         1999 leaffaces
-         1891 nodefaces
+         2006 leaffaces
+         1898 nodefaces
 ---- Portalize ----
           819 vis leafs
           819 vis clusters
@@ -60,29 +60,25 @@ Processing hull 0...
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
 Processing hull 2...
-*** WARNING 16: Texture 128_grey_2 not found
-*** WARNING 16: Texture 128_gold_2 not found
-*** WARNING 16: Texture 128_blue_1 not found
-*** WARNING 16: Texture 128_grey_3 not found
-*** WARNING 16: Texture 128_brown_1 not found
-*** WARNING 16: Texture 128_blue_3 not found
+*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote theoublietteprototype.bsp
-          133 planes             2660
+          168 planes             3360
           681 vertexes           8172
           280 nodes              6720
            15 texinfo             600
           470 faces              9400
-          548 clipnodes          4384
+         2592 clipnodes         20736
           131 leafs              3668
           643 marksurfaces       1286
          2310 surfedges          9240
          1156 edges              4624
-            6 textures             28
+            6 textures         130828
               lightdata             0
               visdata               0
-              entdata            1050
+              entdata             691
 
-0.210 seconds elapsed
-Peak memory usage: 8630538 (8.2M)
+0.220 seconds elapsed
+Peak memory usage: 8639958 (8.2M)
