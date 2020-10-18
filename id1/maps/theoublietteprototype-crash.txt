@@ -1,0 +1,10 @@
+OS:	Windows 10 (10.0)
+Qt:	5.12.8
+GL_VENDOR:	ATI Technologies Inc.
+GL_RENDERER:	AMD Radeon(TM) RX Vega 10 Graphics
+GL_VERSION:	4.6.13560 Compatibility Profile Context 26.20.11030.2003
+TrenchBroom Version:	2020.1
+TrenchBroom Build:	v2020.1 Release
+Reason:	Cannot convert value 'undefined' of type 'Undefined' to type 'String'
+Stack trace:
+<uncaught exception>
