@@ -5,7 +5,7 @@ Output file: theoublietteprototype.bsp
 ---- LoadMapFile ----
          1134 faces
           189 brushes
-           11 entities
+           13 entities
             6 unique texnames
            21 texinfo
 
@@ -78,7 +78,7 @@ Wrote theoublietteprototype.bsp
             6 textures         130828
               lightdata             0
               visdata               0
-              entdata             691
+              entdata             815
 
-0.215 seconds elapsed
-Peak memory usage: 8611414 (8.2M)
+0.249 seconds elapsed
+Peak memory usage: 8611510 (8.2M)

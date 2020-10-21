@@ -1756,3 +1756,13 @@
 "classname" "info_player_deathmatch"
 "origin" "464 -608 40"
 }
+// entity 11
+{
+"classname" "weapon_grenadelauncher"
+"origin" "112 -608 16"
+}
+// entity 12
+{
+"classname" "weapon_supershotgun"
+"origin" "384 80 224"
+}
