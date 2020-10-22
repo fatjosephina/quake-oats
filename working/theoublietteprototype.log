@@ -3,61 +3,19 @@ Input file: theoublietteprototype.map
 Output file: theoublietteprototype.bsp
 
 ---- LoadMapFile ----
-         1482 faces
-          247 brushes
-           17 entities
-            6 unique texnames
-           21 texinfo
+         1611 faces
+          266 brushes
+           19 entities
+            8 unique texnames
+           46 texinfo
 
 Opened WAD: C:/QuakeDev/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          234 brushes
-          161 planes
+            0 brushes
+            0 planes
 ---- CSGFaces ----
-         1404 brushfaces
-         1328 csgfaces
-         1142 mergedfaces
----- SolidBSP ----
-         1775 split nodes
-          721 solid leafs
-         1055 empty leafs
-            0 water leafs
-            0 detail leafs
-            0 detail illusionary leafs
-            0 detail fence leafs
-            0 illusionary visblocker leafs
-         2808 leaffaces
-         2644 nodefaces
+            0 brushfaces
+            0 csgfaces
+            0 mergedfaces
 ---- Portalize ----
-         1055 vis leafs
-         1055 vis clusters
-         2806 vis portals
----- FillOutside ----
-*** WARNING 10: Reached occupant at (128 0 248), no filling performed.
-Leak file written to theoublietteprototype.pts
----- MakeFaceEdges ----
----- GrowRegions ----
-Processing hull 1...
-*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
-Processing hull 2...
-*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
----- WriteBSPFile ----
-Wrote theoublietteprototype.bsp
-          230 planes             4600
-         2991 vertexes          35892
-         1821 nodes             43704
-           21 texinfo             840
-         2690 faces             53800
-         3554 clipnodes         28432
-         1098 leafs             30744
-         2854 marksurfaces       5708
-        10760 surfedges         43040
-         6958 edges             27832
-            6 textures         130828
-              lightdata             0
-              visdata               0
-              entdata            1084
-
-0.265 seconds elapsed
-Peak memory usage: 15291744 (14.6M)
