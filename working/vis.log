@@ -2,5 +2,6 @@
 running with 8 threads
 testlevel = 4
 LoadBSPFile: 'theoublietteprototype.bsp'
-************ ERROR ************
-Error opening theoublietteprototype.bsp: No such file or directory
+BSP is version 29
+LoadPortals: couldn't read theoublietteprototype.prt
+No vising performed.

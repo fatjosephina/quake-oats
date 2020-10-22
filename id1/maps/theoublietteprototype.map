@@ -4,11 +4,6 @@
 {
 "classname" "worldspawn"
 "wad" "C:/QuakeDev/wads/prototype_1_2.wad"
-}
-// entity 1
-{
-"classname" "worldspawn"
-"wad" "C:/QuakeDev/wads/prototype_1_2.wad"
 // brush 0
 {
 ( -144 64 -16 ) ( -144 64 16 ) ( -144 -128 16 ) 128_grey_2 -32 0 0 1 1
@@ -2292,22 +2287,13 @@
 ( 224 -880 88 ) ( 176 -880 88 ) ( 176 -880 16 ) *tele01 0 0 0 1 1
 ( 224 -888 80 ) ( 224 -888 88 ) ( 224 -880 88 ) *tele01 0 0 0 1 1
 }
-// brush 252
-{
-( 176 -856 16 ) ( 176 -856 96 ) ( 176 -872 96 ) trigger 0 0 0 1 1
-( 224 -872 96 ) ( 224 -872 16 ) ( 176 -872 16 ) trigger 0 0 0 1 1
-( 176 -872 16 ) ( 224 -872 16 ) ( 224 -856 16 ) trigger 0 0 0 1 1
-( 224 -856 96 ) ( 224 -872 96 ) ( 176 -872 96 ) trigger 0 0 0 1 1
-( 224 -856 16 ) ( 224 -856 96 ) ( 176 -856 96 ) trigger 0 0 0 1 1
-( 224 -856 16 ) ( 224 -872 16 ) ( 224 -872 96 ) trigger 0 0 0 1 1
 }
-}
-// entity 2
+// entity 1
 {
 "classname" "info_player_start"
 "origin" "-16 32 40"
 }
-// entity 3
+// entity 2
 {
 "classname" "func_plat"
 "height" "200"
@@ -2357,58 +2343,58 @@
 ( 576 32 208 ) ( 576 -32 208 ) ( 576 -32 224 ) 128_blue_3 0 0 0 1 1
 }
 }
-// entity 4
+// entity 3
 {
 "classname" "info_player_deathmatch"
 "origin" "128 0 248"
 }
-// entity 5
+// entity 4
 {
 "classname" "info_player_deathmatch"
 "origin" "1072 0 240"
 "angle" "0"
 }
-// entity 6
+// entity 5
 {
 "classname" "info_player_deathmatch"
 "origin" "1072 -368 248"
 }
-// entity 7
+// entity 6
 {
 "classname" "info_player_deathmatch"
 "origin" "96 -368 248"
 }
-// entity 8
+// entity 7
 {
 "classname" "info_player_deathmatch"
 "origin" "-16 -32 40"
 }
-// entity 9
+// entity 8
 {
 "classname" "info_player_deathmatch"
 "origin" "528 -224 40"
 }
-// entity 10
+// entity 9
 {
 "classname" "info_player_deathmatch"
 "origin" "-32 -832 40"
 }
-// entity 11
+// entity 10
 {
 "classname" "info_player_deathmatch"
 "origin" "512 -688 40"
 }
-// entity 12
+// entity 11
 {
 "classname" "weapon_grenadelauncher"
 "origin" "128 -720 16"
 }
-// entity 13
+// entity 12
 {
 "classname" "weapon_supershotgun"
 "origin" "592 80 224"
 }
-// entity 14
+// entity 13
 {
 "classname" "func_plat"
 "height" "200"
@@ -2458,7 +2444,7 @@
 ( 768 32 208 ) ( 768 -32 208 ) ( 768 -32 224 ) 128_blue_3 0 0 0 1 1
 }
 }
-// entity 15
+// entity 14
 {
 "classname" "func_door"
 "angle" "90"
@@ -2473,7 +2459,7 @@
 ( 768 112 224 ) ( 768 48 224 ) ( 768 48 352 ) 128_grey_3 0 0 0 1 1
 }
 }
-// entity 16
+// entity 15
 {
 "classname" "func_door"
 "angle" "90"
@@ -2488,7 +2474,7 @@
 ( 544 112 224 ) ( 544 48 224 ) ( 544 48 352 ) 128_grey_3 0 0 0 1 1
 }
 }
-// entity 17
+// entity 16
 {
 "classname" "func_door"
 "angle" "270"
@@ -2503,9 +2489,23 @@
 ( 352 -256 216 ) ( 352 -304 216 ) ( 352 -304 220 ) 128_grey_3 0 0 0 1 1
 }
 }
-// entity 18
+// entity 17
 {
 "classname" "info_teleport_destination"
-"origin" "576 -240 256"
+"origin" "576 -240 240"
 "targetname" "tele1"
+}
+// entity 18
+{
+"classname" "trigger_teleport"
+"target" "tele1"
+// brush 0
+{
+( 176 -856 16 ) ( 176 -856 96 ) ( 176 -872 96 ) trigger 0 0 0 1 1
+( 224 -872 96 ) ( 224 -872 16 ) ( 176 -872 16 ) trigger 0 0 0 1 1
+( 176 -872 16 ) ( 224 -872 16 ) ( 224 -856 16 ) trigger 0 0 0 1 1
+( 224 -856 96 ) ( 224 -872 96 ) ( 176 -872 96 ) trigger 0 0 0 1 1
+( 224 -856 16 ) ( 224 -856 96 ) ( 176 -856 96 ) trigger 0 0 0 1 1
+( 224 -856 16 ) ( 224 -872 16 ) ( 224 -872 96 ) trigger 0 0 0 1 1
+}
 }
