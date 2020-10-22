@@ -3,8 +3,8 @@ Input file: theoublietteprototype.map
 Output file: theoublietteprototype.bsp
 
 ---- LoadMapFile ----
-         1134 faces
-          189 brushes
+         1398 faces
+          233 brushes
            13 entities
             6 unique texnames
            21 texinfo
@@ -12,73 +12,72 @@ Output file: theoublietteprototype.bsp
 Opened WAD: C:/QuakeDev/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          188 brushes
-          118 planes
+          232 brushes
+          188 planes
 ---- CSGFaces ----
-         1128 brushfaces
-         1006 csgfaces
-          866 mergedfaces
+         1392 brushfaces
+         1362 csgfaces
+         1206 mergedfaces
 ---- SolidBSP ----
-         1323 split nodes
-          499 solid leafs
-          825 empty leafs
+         1906 split nodes
+          711 solid leafs
+         1196 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         2023 leaffaces
-         1912 nodefaces
+         2812 leaffaces
+         2646 nodefaces
 ---- Portalize ----
-          825 vis leafs
-          825 vis clusters
-         2283 vis portals
+         1196 vis leafs
+         1196 vis clusters
+         3215 vis portals
 ---- FillOutside ----
-          598 outleafs
+          966 outleafs
 ---- MergeAll ----
-          459 mergefaces
+          473 mergefaces
 ---- SolidBSP ----
-          284 split nodes
-          152 solid leafs
-          133 empty leafs
+          277 split nodes
+          138 solid leafs
+          140 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-          661 leaffaces
-          478 nodefaces
+          739 leaffaces
+          554 nodefaces
 ---- Portalize ----
-          133 vis leafs
-          133 vis clusters
-          317 vis portals
+          140 vis leafs
+          140 vis clusters
+          376 vis portals
 ---- Tjunc ----
-          557 world edges
-         1851 edge points
-          434 edges added by tjunctions
+          610 world edges
+         2096 edge points
+          516 edges added by tjunctions
             0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
 Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote theoublietteprototype.bsp
-          168 planes             3360
-          695 vertexes           8340
-          290 nodes              6960
-           15 texinfo             600
-          484 faces              9680
-         2543 clipnodes         20344
-          140 leafs              3920
-          667 marksurfaces       1334
-         2370 surfedges          9480
-         1186 edges              4744
+          242 planes             4840
+          807 vertexes           9684
+          283 nodes              6792
+           13 texinfo             520
+          560 faces             11200
+         2019 clipnodes         16152
+          147 leafs              4116
+          745 marksurfaces       1490
+         2756 surfedges         11024
+         1379 edges              5516
             6 textures         130828
               lightdata             0
               visdata               0
-              entdata             815
+              entdata             830
 
-0.249 seconds elapsed
-Peak memory usage: 8611510 (8.2M)
+0.278 seconds elapsed
+Peak memory usage: 11397770 (10.9M)
