@@ -3,60 +3,39 @@ Input file: theoublietteprototype.map
 Output file: theoublietteprototype.bsp
 
 ---- LoadMapFile ----
-         1398 faces
-          233 brushes
-           13 entities
+         1458 faces
+          243 brushes
+           18 entities
             6 unique texnames
            21 texinfo
 
 Opened WAD: C:/QuakeDev/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          232 brushes
-          187 planes
+          229 brushes
+          158 planes
 ---- CSGFaces ----
-         1392 brushfaces
-         1361 csgfaces
-         1203 mergedfaces
+         1374 brushfaces
+         1301 csgfaces
+         1116 mergedfaces
 ---- SolidBSP ----
-         1882 split nodes
-          700 solid leafs
-         1183 empty leafs
+         1741 split nodes
+          704 solid leafs
+         1038 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         2787 leaffaces
-         2622 nodefaces
+         2766 leaffaces
+         2607 nodefaces
 ---- Portalize ----
-         1183 vis leafs
-         1183 vis clusters
-         3177 vis portals
+         1038 vis leafs
+         1038 vis clusters
+         2733 vis portals
 ---- FillOutside ----
-          956 outleafs
----- MergeAll ----
-          474 mergefaces
----- SolidBSP ----
-          274 split nodes
-          137 solid leafs
-          138 empty leafs
-            0 water leafs
-            0 detail leafs
-            0 detail illusionary leafs
-            0 detail fence leafs
-            0 illusionary visblocker leafs
-          737 leaffaces
-          554 nodefaces
----- Portalize ----
-          138 vis leafs
-          138 vis clusters
-          368 vis portals
----- Tjunc ----
-          608 world edges
-         2098 edge points
-          520 edges added by tjunctions
-            0 faces added by tjunctions
+*** WARNING 10: Reached occupant at (592 80 224), no filling performed.
+Leak file written to theoublietteprototype.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
@@ -64,20 +43,20 @@ Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote theoublietteprototype.bsp
-          242 planes             4840
-          809 vertexes           9708
-          280 nodes              6720
-           13 texinfo             520
-          560 faces             11200
-         2027 clipnodes         16216
-          145 leafs              4060
-          743 marksurfaces       1486
-         2760 surfedges         11040
-         1381 edges              5524
+          225 planes             4500
+         2931 vertexes          35172
+         1793 nodes             43032
+           21 texinfo             840
+         2659 faces             53180
+         2126 clipnodes         17008
+         1087 leafs             30436
+         2818 marksurfaces       5636
+        10636 surfedges         42544
+         6823 edges             27292
             6 textures         130828
               lightdata             0
               visdata               0
-              entdata             830
+              entdata            1104
 
-0.255 seconds elapsed
-Peak memory usage: 11367782 (10.8M)
+0.269 seconds elapsed
+Peak memory usage: 15112392 (14.4M)
