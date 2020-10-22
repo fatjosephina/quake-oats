@@ -3,15 +3,15 @@ running with 8 threads
 testlevel = 4
 LoadBSPFile: 'theoublietteprototype.bsp'
 BSP is version 29
-   140 leafs
-   376 portals
+   138 leafs
+   368 portals
 Calculating Base Vis:
 0....1....2....3....4....5....6....7....8....9....
 Calculating Full Vis:
 0....1....2....3....4....5....6....7....8....9....
-average leafs visible: 43
+average leafs visible: 45
 c_noclip: 0
-c_chains: 39416
-visdatasize:2360  compressed from 2520
+c_chains: 36393
+visdatasize:2332  compressed from 2484
 Writing theoublietteprototype.bsp as BSP version 29
   0.1 seconds elapsed

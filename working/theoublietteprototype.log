@@ -13,49 +13,49 @@ Opened WAD: C:/QuakeDev/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
           232 brushes
-          188 planes
+          187 planes
 ---- CSGFaces ----
          1392 brushfaces
-         1362 csgfaces
-         1206 mergedfaces
+         1361 csgfaces
+         1203 mergedfaces
 ---- SolidBSP ----
-         1906 split nodes
-          711 solid leafs
-         1196 empty leafs
+         1882 split nodes
+          700 solid leafs
+         1183 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         2812 leaffaces
-         2646 nodefaces
+         2787 leaffaces
+         2622 nodefaces
 ---- Portalize ----
-         1196 vis leafs
-         1196 vis clusters
-         3215 vis portals
+         1183 vis leafs
+         1183 vis clusters
+         3177 vis portals
 ---- FillOutside ----
-          966 outleafs
+          956 outleafs
 ---- MergeAll ----
-          473 mergefaces
+          474 mergefaces
 ---- SolidBSP ----
-          277 split nodes
-          138 solid leafs
-          140 empty leafs
+          274 split nodes
+          137 solid leafs
+          138 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-          739 leaffaces
+          737 leaffaces
           554 nodefaces
 ---- Portalize ----
-          140 vis leafs
-          140 vis clusters
-          376 vis portals
+          138 vis leafs
+          138 vis clusters
+          368 vis portals
 ---- Tjunc ----
-          610 world edges
-         2096 edge points
-          516 edges added by tjunctions
+          608 world edges
+         2098 edge points
+          520 edges added by tjunctions
             0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
@@ -65,19 +65,19 @@ Processing hull 2...
 ---- WriteBSPFile ----
 Wrote theoublietteprototype.bsp
           242 planes             4840
-          807 vertexes           9684
-          283 nodes              6792
+          809 vertexes           9708
+          280 nodes              6720
            13 texinfo             520
           560 faces             11200
-         2019 clipnodes         16152
-          147 leafs              4116
-          745 marksurfaces       1490
-         2756 surfedges         11024
-         1379 edges              5516
+         2027 clipnodes         16216
+          145 leafs              4060
+          743 marksurfaces       1486
+         2760 surfedges         11040
+         1381 edges              5524
             6 textures         130828
               lightdata             0
               visdata               0
               entdata             830
 
-0.278 seconds elapsed
-Peak memory usage: 11397770 (10.9M)
+0.255 seconds elapsed
+Peak memory usage: 11367782 (10.8M)
