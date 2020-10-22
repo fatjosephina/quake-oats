@@ -2707,3 +2707,48 @@
 ( 224 -856 16 ) ( 224 -872 16 ) ( 224 -872 96 ) trigger 0 0 0 1 1
 }
 }
+// entity 19
+{
+"classname" "item_health"
+"origin" "16 -48 48"
+}
+// entity 20
+{
+"classname" "item_health"
+"origin" "576 -176 48"
+}
+// entity 21
+{
+"classname" "item_shells"
+"origin" "272 272 64"
+}
+// entity 22
+{
+"classname" "item_shells"
+"origin" "576 64 80"
+}
+// entity 23
+{
+"classname" "item_health"
+"origin" "640 -368 224"
+}
+// entity 24
+{
+"classname" "item_shells"
+"origin" "480 -368 224"
+}
+// entity 25
+{
+"classname" "item_health"
+"origin" "-48 -1024 16"
+}
+// entity 26
+{
+"classname" "item_rockets"
+"origin" "-48 272 48"
+}
+// entity 27
+{
+"classname" "item_shells"
+"origin" "320 -304 80"
+}
