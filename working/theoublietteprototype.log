@@ -3,36 +3,36 @@ Input file: theoublietteprototype.map
 Output file: theoublietteprototype.bsp
 
 ---- LoadMapFile ----
-         1743 faces
-          288 brushes
-           28 entities
+         1899 faces
+          314 brushes
+           37 entities
            10 unique texnames
            52 texinfo
 
 Opened WAD: C:/QuakeDev/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          273 brushes
-          246 planes
+          299 brushes
+          247 planes
 ---- CSGFaces ----
-         1653 brushfaces
-         1579 csgfaces
-         1345 mergedfaces
+         1809 brushfaces
+         1656 csgfaces
+         1388 mergedfaces
 ---- SolidBSP ----
-         1964 split nodes
-          771 solid leafs
-         1174 empty leafs
-           20 water leafs
+         1977 split nodes
+          789 solid leafs
+         1170 empty leafs
+           19 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         3175 leaffaces
-         2952 nodefaces
+         3213 leaffaces
+         2985 nodefaces
 ---- Portalize ----
-         1194 vis leafs
-         1194 vis clusters
-         3167 vis portals
+         1189 vis leafs
+         1189 vis clusters
+         3145 vis portals
 ---- FillOutside ----
 *** WARNING 10: Reached occupant at (128 0 248), no filling performed.
 Leak file written to theoublietteprototype.pts
@@ -44,20 +44,20 @@ Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote theoublietteprototype.bsp
-          373 planes             7460
-         3254 vertexes          39048
-         2016 nodes             48384
+          374 planes             7480
+         3279 vertexes          39348
+         2029 nodes             48696
            45 texinfo            1800
-         3004 faces             60080
-         3640 clipnodes         29120
-         1243 leafs             34804
-         3227 marksurfaces       6454
-        11927 surfedges         47708
-         7703 edges             30812
+         3037 faces             60740
+         3671 clipnodes         29368
+         1238 leafs             34664
+         3265 marksurfaces       6530
+        12059 surfedges         48236
+         7760 edges             31040
            10 textures         152764
               lightdata             0
               visdata               0
-              entdata            1713
+              entdata            2322
 
 0.298 seconds elapsed
-Peak memory usage: 16583890 (15.8M)
+Peak memory usage: 16972134 (16.2M)
