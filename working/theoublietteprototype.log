@@ -5,11 +5,12 @@ Output file: theoublietteprototype.bsp
 ---- LoadMapFile ----
          1899 faces
           314 brushes
-           37 entities
-           10 unique texnames
-           52 texinfo
+           38 entities
+           11 unique texnames
+           55 texinfo
 
 Opened WAD: C:/QuakeDev/wads/prototype_1_2.wad
+Opened WAD: C:/QuakeDev/wads/id1.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
           299 brushes
@@ -47,17 +48,17 @@ Wrote theoublietteprototype.bsp
           374 planes             7480
          3279 vertexes          39348
          2029 nodes             48696
-           45 texinfo            1800
+           48 texinfo            1920
          3037 faces             60740
          3671 clipnodes         29368
          1238 leafs             34664
          3265 marksurfaces       6530
         12059 surfedges         48236
          7760 edges             31040
-           10 textures         152764
+           11 textures         109288
               lightdata             0
               visdata               0
-              entdata            2322
+              entdata            2435
 
-0.298 seconds elapsed
-Peak memory usage: 16972134 (16.2M)
+0.294 seconds elapsed
+Peak memory usage: 17009062 (16.2M)

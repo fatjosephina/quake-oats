@@ -4,7 +4,7 @@ running with 8 threads
 LoadBSPFile: 'theoublietteprototype.bsp'
 BSP is version 29
 --- LoadEntities ---
-37 entities read, 0 are lights.
+38 entities read, 0 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
