@@ -5,7 +5,7 @@ running with 8 threads
 LoadBSPFile: 'theoublietteprototype.bsp'
 BSP is version 29
 --- LoadEntities ---
-131 entities read, 90 are lights.
+167 entities read, 126 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
@@ -13,22 +13,22 @@ Embree_TraceInit:
 	3541 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 90 initial lights
-SetupLights: 90 after surface lights
-SetupLights: 90 after jittering
+SetupLights: 126 initial lights
+SetupLights: 126 after surface lights
+SetupLights: 126 after jittering
 --- EstimateLightVisibility ---
 0....1....2....3....4....5....6....7....8....9....
-Final count: 90 lights 0 suns in use.
+Final count: 126 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 39332
+lightdatasize: 41912
 0 switchable light styles (32 max)
 Writing theoublietteprototype.bsp as BSP version 29
-0.321 seconds elapsed
+0.310 seconds elapsed
 
 stats:
-5.749674 lights tested, 2.075381 hits per sample point
+6.205583 lights tested, 2.454898 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
