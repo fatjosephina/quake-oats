@@ -23,12 +23,12 @@ Final count: 126 lights 0 suns in use.
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 41140
+lightdatasize: 41180
 0 switchable light styles (32 max)
 Writing theoublietteprototype.bsp as BSP version 29
-0.310 seconds elapsed
+0.329 seconds elapsed
 
 stats:
-4.629997 lights tested, 1.774212 hits per sample point
+5.336039 lights tested, 2.046109 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
