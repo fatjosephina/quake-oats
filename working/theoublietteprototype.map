@@ -4694,7 +4694,7 @@
 "origin" "628 -316 76"
 "angle" "90"
 "wait" "0.75"
-"light" "200"
+"light" "150"
 }
 // entity 39
 {
@@ -4702,7 +4702,7 @@
 "origin" "556 -316 76"
 "angle" "90"
 "wait" "0.75"
-"light" "200"
+"light" "150"
 }
 // entity 40
 {
@@ -4710,7 +4710,7 @@
 "origin" "-12 -124 76"
 "angle" "90"
 "wait" "0.75"
-"light" "200"
+"light" "150"
 }
 // entity 41
 {
@@ -4718,7 +4718,7 @@
 "origin" "-84 -124 76"
 "angle" "90"
 "wait" "0.75"
-"light" "200"
+"light" "150"
 }
 // entity 42
 {
@@ -4726,6 +4726,7 @@
 "origin" "188 -652 68"
 "angle" "90"
 "wait" "0.75"
+"light" "200"
 }
 // entity 43
 {
@@ -4733,12 +4734,14 @@
 "origin" "68 -652 68"
 "angle" "90"
 "wait" "0.75"
+"light" "200"
 }
 // entity 44
 {
 "classname" "light_torch_small_walltorch"
 "origin" "164 -868 68"
 "angle" "90"
+"light" "200"
 }
 // entity 45
 {
@@ -4803,7 +4806,7 @@
 "origin" "-84 -260 76"
 "angle" "270"
 "wait" "0.75"
-"light" "200"
+"light" "150"
 }
 // entity 54
 {
@@ -4811,7 +4814,7 @@
 "origin" "-12 -260 76"
 "angle" "270"
 "wait" "0.75"
-"light" "200"
+"light" "150"
 }
 // entity 55
 {
@@ -4825,11 +4828,13 @@
 {
 "classname" "light"
 "origin" "-48 -32 128"
+"light" "250"
 }
 // entity 57
 {
 "classname" "light"
 "origin" "608 -232 128"
+"light" "250"
 }
 // entity 58
 {
@@ -4903,7 +4908,7 @@
 "origin" "-120 -960 120"
 "wait" "0.75"
 "delay" "1"
-"light" "200"
+"light" "150"
 }
 // entity 69
 {
@@ -4936,6 +4941,7 @@
 "origin" "68 -676 68"
 "angle" "270"
 "wait" "0.75"
+"light" "200"
 }
 // entity 74
 {
@@ -4943,6 +4949,7 @@
 "origin" "188 -676 68"
 "angle" "270"
 "wait" "0.75"
+"light" "200"
 }
 // entity 75
 {
@@ -4974,6 +4981,7 @@
 {
 "classname" "light"
 "origin" "248 -1000 120"
+"light" "200"
 }
 // entity 80
 {
@@ -4991,23 +4999,27 @@
 {
 "classname" "light_torch_small_walltorch"
 "origin" "564 -732 60"
+"light" "200"
 }
 // entity 83
 {
 "classname" "light_torch_small_walltorch"
 "origin" "620 -732 60"
 "angle" "180"
+"light" "200"
 }
 // entity 84
 {
 "classname" "light_torch_small_walltorch"
 "origin" "564 -460 60"
+"light" "200"
 }
 // entity 85
 {
 "classname" "light_torch_small_walltorch"
 "origin" "620 -460 60"
 "angle" "180"
+"light" "200"
 }
 // entity 86
 {
@@ -5091,18 +5103,20 @@
 "classname" "light_torch_small_walltorch"
 "origin" "572 52 268"
 "angle" "90"
+"light" "150"
 }
 // entity 99
 {
 "classname" "light_torch_small_walltorch"
 "origin" "612 52 268"
 "angle" "90"
+"light" "150"
 }
 // entity 100
 {
 "classname" "light"
 "origin" "344 -984 104"
-"light" "150"
+"light" "200"
 }
 // entity 101
 {
@@ -5247,14 +5261,14 @@
 {
 "classname" "light"
 "origin" "808 -168 312"
-"light" "200"
+"light" "50"
 }
 // entity 124
 {
 "classname" "light"
 "origin" "376 -168 312"
 "angle" "180"
-"light" "200"
+"light" "50"
 }
 // entity 125
 {
@@ -5271,7 +5285,7 @@
 {
 "classname" "light"
 "origin" "136 88 296"
-"light" "250"
+"light" "100"
 "angle" "270"
 }
 // entity 128
@@ -5279,7 +5293,7 @@
 "classname" "light"
 "origin" "1080 88 312"
 "angle" "270"
-"light" "250"
+"light" "100"
 }
 // entity 129
 {
@@ -5302,11 +5316,13 @@
 "classname" "light"
 "origin" "360 88 312"
 "angle" "180"
+"light" "100"
 }
 // entity 132
 {
 "classname" "light"
 "origin" "824 88 312"
+"light" "100"
 }
 // entity 133
 {
@@ -5323,25 +5339,27 @@
 {
 "classname" "light"
 "origin" "488 -376 296"
-"light" "200"
+"light" "150"
 }
 // entity 136
 {
 "classname" "light"
 "origin" "664 -376 296"
 "angle" "180"
-"light" "200"
+"light" "150"
 }
 // entity 137
 {
 "classname" "light"
 "origin" "280 -232 296"
 "angle" "180"
+"light" "150"
 }
 // entity 138
 {
 "classname" "light"
 "origin" "904 -232 296"
+"light" "150"
 }
 // entity 139
 {
@@ -5369,35 +5387,35 @@
 "classname" "light"
 "origin" "592 216 24"
 "angle" "270"
-"light" "150"
+"light" "50"
 }
 // entity 143
 {
 "classname" "light_torch_small_walltorch"
 "origin" "540 292 28"
 "angle" "90"
-"light" "150"
+"light" "100"
 }
 // entity 144
 {
 "classname" "light_torch_small_walltorch"
 "origin" "660 292 28"
 "angle" "90"
-"light" "150"
+"light" "100"
 }
 // entity 145
 {
 "classname" "light_torch_small_walltorch"
 "origin" "660 268 28"
-"angle" "170"
-"light" "150"
+"angle" "270"
+"light" "100"
 }
 // entity 146
 {
 "classname" "light_torch_small_walltorch"
 "origin" "540 268 28"
-"angle" "170"
-"light" "150"
+"angle" "270"
+"light" "100"
 }
 // entity 147
 {
@@ -5418,20 +5436,20 @@
 "classname" "light"
 "origin" "600 360 40"
 "angle" "270"
-"light" "150"
+"light" "50"
 }
 // entity 150
 {
 "classname" "light"
 "origin" "808 280 120"
-"light" "150"
+"light" "100"
 "wait" "0.5"
 }
 // entity 151
 {
 "classname" "light"
 "origin" "88 344 104"
-"light" "150"
+"light" "100"
 "wait" "0.75"
 }
 // entity 152
@@ -5439,7 +5457,7 @@
 "classname" "light"
 "origin" "-72 312 88"
 "angle" "90"
-"light" "150"
+"light" "100"
 "wait" "1"
 }
 // entity 153
@@ -5447,7 +5465,7 @@
 "classname" "light"
 "origin" "-88 280 88"
 "angle" "180"
-"light" "150"
+"light" "100"
 "wait" "0.75"
 }
 // entity 154
@@ -5455,7 +5473,7 @@
 "classname" "light"
 "origin" "24 280 56"
 "wait" "0.75"
-"light" "150"
+"light" "50"
 "angle" "180"
 }
 // entity 155
@@ -5463,7 +5481,7 @@
 "classname" "light"
 "origin" "-120 280 24"
 "angle" "0"
-"light" "100"
+"light" "50"
 "wait" "0.75"
 }
 // entity 156
@@ -5471,21 +5489,21 @@
 "classname" "light"
 "origin" "-56 344 24"
 "angle" "270"
-"light" "100"
+"light" "50"
 "wait" "0.75"
 }
 // entity 157
 {
 "classname" "light"
 "origin" "152 216 40"
-"light" "150"
+"light" "50"
 "wait" "0.75"
 }
 // entity 158
 {
 "classname" "light"
 "origin" "328 280 56"
-"light" "100"
+"light" "150"
 "wait" "0.5"
 }
 // entity 159
@@ -5493,7 +5511,7 @@
 "classname" "light"
 "origin" "424 216 56"
 "angle" "180"
-"light" "100"
+"light" "50"
 "wait" "0.75"
 }
 // entity 160
@@ -5501,7 +5519,7 @@
 "classname" "light"
 "origin" "424 344 56"
 "angle" "180"
-"light" "100"
+"light" "50"
 "wait" "0.75"
 }
 // entity 161
@@ -5509,13 +5527,13 @@
 "classname" "light"
 "origin" "104 280 24"
 "angle" "90"
-"light" "150"
+"light" "50"
 }
 // entity 162
 {
 "classname" "light"
 "origin" "272 200 72"
-"light" "150"
+"light" "100"
 "angle" "90"
 }
 // entity 163

@@ -56,7 +56,7 @@ Wrote theoublietteprototype.bsp
            19 textures         104200
               lightdata             0
               visdata               0
-              entdata           12591
+              entdata           12832
 
-0.404 seconds elapsed
-Peak memory usage: 20085308 (19.2M)
+0.394 seconds elapsed
+Peak memory usage: 20085740 (19.2M)
