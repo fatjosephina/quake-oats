@@ -5,7 +5,7 @@ Output file: theoublietteprototype.bsp
 ---- LoadMapFile ----
          2991 faces
           497 brushes
-           38 entities
+          131 entities
            19 unique texnames
            98 texinfo
 
@@ -35,30 +35,29 @@ Processing hull 0...
          1200 vis clusters
          3143 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (128 0 248), no filling performed.
+*** WARNING 10: Reached occupant at (408 40 168), no filling performed.
 Leak file written to theoublietteprototype.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
 Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote theoublietteprototype.bsp
-          374 planes             7480
+          373 planes             7460
          3901 vertexes          46812
          2046 nodes             49104
            86 texinfo            3440
          3653 faces             73060
-         3682 clipnodes         29456
+         2189 clipnodes         17512
          1249 leafs             34972
          3924 marksurfaces       7848
         14519 surfedges         58076
          9131 edges             36524
-           19 textures         120520
+           19 textures         104200
               lightdata             0
               visdata               0
-              entdata            2435
+              entdata            9250
 
-0.358 seconds elapsed
-Peak memory usage: 20095340 (19.2M)
+0.370 seconds elapsed
+Peak memory usage: 20080892 (19.2M)
